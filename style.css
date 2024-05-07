@@ -1,0 +1,98 @@
+    body {
+        font-family: "Circular STD,Monserrat, Gotham";
+        color: white;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    .backicon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .color-1 {
+        background-color: #283244;
+        background-image: url("https://domofrontendchallenge.netlify.app/img/asset-background.jpg");
+        background-size: 50% 75%;
+        background-position: right top;
+        background-repeat: no-repeat;
+        padding: 0;
+        margin: 0;
+    }
+
+    .color-3 {
+        background-color: #ffffff;
+        color: black;
+        padding: 0;
+        margin: 0;
+    }
+
+    .color-2 {
+        background-color: #3971FE;
+        padding: 0;
+        margin: 0;
+    }
+
+    .color-4 {
+        background-color: #283244;
+        padding: 0;
+        margin: 0;
+    }
+
+    .img-logos {
+        -webkit-filter: grayscale(1);
+        filter: grayscale(1);
+    }
+
+    .margin-negative {
+        margin-bottom: -10rem;
+    }
+
+    @media (min-width: 992px) {
+        .article-media {
+            max-width: 50%;
+        }
+
+        .article-media section h1 {
+            text-align: start;
+        }
+
+        .cards-h {
+            height: 14rem;
+        }
+    }
+
+    @media (max-width: 768px) {
+
+        .color-1 {
+            background-size: 100% 50%;
+        }
+
+        nav {
+            padding: 0 1rem !important;
+        }
+
+        .py-3,
+        .px-5 {
+            padding: 0.5rem 0 !important;
+        }
+
+
+        .p-5 {
+            padding: 3rem 0 !important;
+        }
+
+        p,
+        h6 {
+            font-size: small;
+        }
+
+        .cards-width {
+            width: 100%;
+        }
+
+        footer section div {
+            padding: 0 1rem !important;
+        }
+    }
