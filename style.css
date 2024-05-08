@@ -17,26 +17,29 @@
         background-size: 50% 75%;
         background-position: right top;
         background-repeat: no-repeat;
-        padding: 0;
+        padding: 2rem 8rem;
         margin: 0;
     }
+
+
+
+    .color-2 {
+        background-color: #3971FE;
+        padding: 2rem 8rem;
+        margin: 0;
+    }
+
 
     .color-3 {
         background-color: #ffffff;
         color: black;
-        padding: 0;
-        margin: 0;
-    }
-
-    .color-2 {
-        background-color: #3971FE;
-        padding: 0;
+        padding: 2rem 8rem;
         margin: 0;
     }
 
     .color-4 {
         background-color: #283244;
-        padding: 0;
+        padding: 2rem 8rem;
         margin: 0;
     }
 
@@ -67,20 +70,20 @@
 
         .color-1 {
             background-size: 100% 50%;
+            padding: 1rem 2rem;
         }
 
-        nav {
-            padding: 0 1rem !important;
+        .color-2 article section {
+            width: 100% !important;
+            padding: 1rem 2rem;
         }
 
-        .py-3,
-        .px-5 {
-            padding: 0.5rem 0 !important;
+        .color-3 {
+            padding: 1rem 2rem;
         }
 
-
-        .p-5 {
-            padding: 3rem 0 !important;
+        .color-4 {
+            padding: 1rem 2rem;
         }
 
         p,
